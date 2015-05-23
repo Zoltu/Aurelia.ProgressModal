@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es5"
+    },
+    "filesGlob": [
+        "./source/**/*.ts",
+        "./sample/**/*.ts",
+        "!./node_modules/**/*.ts",
+        "!./jspm_packages/**/*.ts"
+    ],
+    "files": [
+        "./source/index.ts",
+        "./source/progress-modal.ts",
+        "./sample/app.ts",
+        "./sample/main.ts"
+    ],
+    "compileOnSave": false
+}

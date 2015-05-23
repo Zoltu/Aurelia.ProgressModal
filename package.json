@@ -1,0 +1,45 @@
+{
+  "name": "aurelia-progress-modal",
+  "version": "1.0.0",
+  "description": "A bootstrap modal window with no close button and a progress bar that auto-closes when a promise fulfills.",
+  "main": "output/sample/index.html",
+  "scripts": {
+    "jspm": "jspm",
+    "gulp": "gulp",
+    "prepublish": "jspm install && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zoltu/Aurelia.ProgressModal"
+  },
+  "author": "Zoltu",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Zoltu/Aurelia.ProgressModal/issues"
+  },
+  "homepage": "https://github.com/Zoltu/Aurelia.ProgressModal",
+  "devDependencies": {
+    "browser-sync": "^2.7.3",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-typescript": "^2.7.5",
+    "jspm": "^0.15.6",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.0",
+    "typescript": "git://github.com/microsoft/TypeScript.git#master",
+    "vinyl-paths": "^1.0.0"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "aurelia-framework": "github:aurelia/framework@^0.11.0",
+      "css": "github:systemjs/plugin-css@^0.1.11"
+    },
+    "devDependencies": {
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.12.0",
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}
