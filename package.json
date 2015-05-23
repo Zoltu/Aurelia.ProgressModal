@@ -1,0 +1,32 @@
+{
+  "name": "aurelia-progress-modal",
+  "version": "1.0.0",
+  "description": "A bootstrap modal window with no close button and a progress bar that auto-closes when a promise fulfills.",
+  "scripts": {
+    "jspm": "jspm",
+    "gulp": "gulp",
+    "prepublish": "jspm install && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zoltu/Aurelia.ProgressModal"
+  },
+  "author": "Zoltu",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Zoltu/Aurelia.ProgressModal/issues"
+  },
+  "homepage": "https://github.com/Zoltu/Aurelia.ProgressModal",
+  "jspm": {
+    "directories": {
+      "lib": "."
+    },
+    "dependencies": {
+      "aurelia-framework": "github:aurelia/framework@^0.11.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "css": "github:systemjs/plugin-css@^0.1.11",
+      "jquery": "github:components/jquery@^2.1.4",
+      "uuid": "npm:uuid@^2.0.1"
+    }
+  }
+}
