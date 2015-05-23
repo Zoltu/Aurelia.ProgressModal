@@ -18,8 +18,11 @@ gulp.task('build-ts', function() {
 	var project = typescript.createProject(paths.tsconfig, { typescript: require('typescript') });
 	var result = project.src()
 		.pipe(sourcemaps.init())
-		.pipe(typescript(project)).js
+		.pipe(typescript(project));
+	result.js
 		.pipe(sourcemaps.write({ includeContent: true }))
+		.pipe(gulp.dest(paths.output));
+	result.dts
 		.pipe(gulp.dest(paths.output));
 });
 

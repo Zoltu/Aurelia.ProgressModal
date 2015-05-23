@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "declaration": true,
         "module": "system",
         "noImplicitAny": true,
         "outDir": "../output/",
@@ -8,12 +9,10 @@
         "sourceMap": true,
         "target": "es5"
     },
-    "filesGlob": [
-        "./**/*.ts"
-    ],
     "files": [
         "./index.ts",
-        "./progress-modal.ts"
+        "./progress-modal.ts",
+        "./typings/Promises.d.ts"
     ],
     "compileOnSave": false
 }

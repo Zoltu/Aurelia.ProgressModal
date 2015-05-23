@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "declaration": true,
         "module": "system",
         "noImplicitAny": true,
         "outDir": "../output/",
@@ -8,9 +9,6 @@
         "sourceMap": true,
         "target": "es5"
     },
-    "filesGlob": [
-        "./**/*.ts"
-    ],
     "files": [
         "./app.ts",
         "./main.ts"
